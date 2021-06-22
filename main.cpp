@@ -6,6 +6,13 @@
 using namespace std;
 
 int main() {
-    
+    int numero, factorial = 1;
+
+    cout<<"DIGITE UN NUMERO: "; cin>>numero;
+
+    for(int i=1;i<=numero;i++){
+        factorial = factorial * i;
+    }
+    cout<<"\nEL FACTORIAL DEL NUMERO ES: "<<factorial<<endl;
     return 0;
 }
